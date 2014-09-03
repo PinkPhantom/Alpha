@@ -8,16 +8,18 @@ string input;
 
 
 
-
+console.write("Skriv det första heltalet : ");
 input = console.readline();
 firstnumber = int.parse(input);
+
+console.write("Skriv det andra heltalet : ");
 input = console.readline();
 secondnumber = int.parse(input);
 
 sum = firstumber + secondnumber;
 
 
-
-console.writeline(sum)
+console.write(" Svaret = ");
+console.writeline(sum);
 
 console.readkey();
