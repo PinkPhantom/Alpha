@@ -1,0 +1,15 @@
+        static void Main(string[] args)
+        {
+            Console.Title = ("Finn fem fel"); // () lades till
+            int hours = 35;
+            double hourlywages = 173.27;
+            double weeklywages; // Weeklywages behövdes som en variabel och det blev en double pga decimalerna i svaret
+
+            weeklywages = hours * hourlywages;
+
+            Console.WriteLine("Veckolönen är {0} timmar arbetade * {1} i timmlönen och därmed = {2}.",hours, hourlywages, weeklywages  );
+            Console.ReadKey(); //Fixades till så att 0 1 2 blev kopplade rätt och skrev sedan till readkey
+
+        }
+    }
+}
