@@ -1,0 +1,17 @@
+Int firstnumber;
+int secondnumber;
+int sum;
+
+
+
+
+
+
+
+
+
+sum = firstumber + secondnumber;
+
+
+
+console.writeline(sum)
