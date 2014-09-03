@@ -1,0 +1,18 @@
+        static void Main(string[] args)
+        {
+            double Fahrenheit1 = 0d;
+            double celsius = 0d;
+            double Fahrenheit2;
+
+            Console.Write("Ange temperaturen i grader Fahrenheit: ");
+
+            Fahrenheit1 = double.Parse(Console.ReadLine());
+            Fahrenheit2 = Fahrenheit1 - 32;
+            celsius = Fahrenheit2 * 5/9 ;
+
+
+            Console.WriteLine("Tempraturen {0}°F motsvarar {1}°C ", Fahrenheit1, celsius);
+            Console.ReadKey();
+        }
+    }
+}
