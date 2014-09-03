@@ -10,9 +10,14 @@ string input;
 
 
 input = console.readline();
+firstnumber = int.parse(input);
+input = console.readline();
+secondnumber = int.parse(input);
 
 sum = firstumber + secondnumber;
 
 
 
 console.writeline(sum)
+
+console.readkey();
