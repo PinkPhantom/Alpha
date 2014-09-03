@@ -1,0 +1,2 @@
+console.writeline("Hello World");
+consolve.readkey();
