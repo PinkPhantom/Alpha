@@ -1,0 +1,35 @@
+sing System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication10
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Deklarera variabler.
+            int points;
+            int students;
+            double average;
+
+
+            //Läs in värden från tangenbord.
+            Console.Write("Please enter the total score: ");
+            points = int.Parse(Console.ReadLine());
+
+            Console.Write("Please enter the total number of students: ");
+            students = int.Parse(Console.ReadLine());
+
+            // Beräkna medelpoängen.
+            average = (double)points / students;
+
+            // Presentera Resultatet
+            Console.WriteLine("The average score of the class is {0:f1}.", average);
+
+            Console.ReadKey();
+        }
+    }
+}
